@@ -3,3 +3,14 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list-item {
+  margin: 10px;
+  border: 1px solid black;
+  height: 75px;
+}

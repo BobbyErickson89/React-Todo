@@ -11,9 +11,9 @@ class TodoList extends Component {
         });
 
         return (
-            <div>
+            <ul>
                 {todoItems}
-            </div>
+            </ul>
         )
     }
 }
