@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TodoList from './components/todo_list';
-import NewTodo from './components/new_todo';
+import TodoList from '../containers/todo_list';
+import NewTodo from './new_todo';
 
 class App extends Component {
   constructor(props){
@@ -32,7 +32,7 @@ class App extends Component {
       return (
           <div>
               My React App!
-              <TodoList todos={this.state.todos} />
+              <TodoList />
               <NewTodo />
           </div>
       );
